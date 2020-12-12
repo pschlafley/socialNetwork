@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const UserSchema = new Schema(
     {
-        UserName: {
+        username: {
             type: String,
             unique: true,
             required: 'You must enter a username!',
